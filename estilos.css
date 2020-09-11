@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  background: #55d6aa;
+  background: #0629c580;
 }
 
 header::after {
@@ -20,9 +20,9 @@ header::after {
   clear: both;
 }
 
-.logo {
+img {
   float: left;
-  padding: 10px 0;
+  padding: 10px 10px;
 }
 
 nav {
@@ -39,8 +39,6 @@ nav li {
   display: inline-block;
   margin-left: 70px;
   padding-top: 23px;
-
-  position: relative;
 }
 
 nav a {
@@ -52,19 +50,6 @@ nav a {
 
 nav a:hover {
   color: #000;
-}
-
-nav a::before {
-  content: '';
-  display: block;
-  height: 5px;
-  background-color: #444;
-
-  position: absolute;
-  top: 0;
-  width: 0%;
-
-  transition: all ease-in-out 250ms;
 }
 
 nav a:hover::before {
