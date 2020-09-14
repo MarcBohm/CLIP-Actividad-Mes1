@@ -60,6 +60,9 @@ body {
   background-color: burlywood;
 }
 
+content{
+  font-size: 17px;
+}
 content p a:link{
   text-decoration: none;
   color: rgba(3, 110, 231, 0.979)
