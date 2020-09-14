@@ -56,21 +56,21 @@ nav a:hover::before {
   width: 100%;
 }
 
-#contenido p a:link{
+content p a:link{
   text-decoration: none;
   color: rgba(3, 110, 231, 0.979)
 }
 
-#contenido p a:visited{
+content p a:visited{
     color: rgba(3, 110, 231, 0.979)
 }
 
-#contenido ul li a:link{
+content ul li a:link{
   text-decoration: none;
   color: rgba(3, 110, 231, 0.979)
 }
 
-#contenido ul li a:visited{
+content ul li a:visited{
   color: rgba(3, 110, 231, 0.979)
 }
 
