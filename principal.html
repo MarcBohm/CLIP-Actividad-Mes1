@@ -47,8 +47,46 @@
     <img src="Imagenes/gorro-chef.jpg" alt="Gorro chef" width="600" height="400">
     <img src="Imagenes/chef-cocinando.jpg" alt="Chef cociando" width="600" height="400">
 
+    <!--Carousel de las recetas mas famosas-->
     <h2>Nuestras recetas mas famosas!</h2>
-    <!--BUscar en bootstrap un pasador con los links a recetas especificas-->
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Imagenes/pizza-fugazzeta.jpg" class="d-block w-100" alt="Pizza Fugazzeta" width="400" height="300">
+          <div class="carousel-caption d-none d-md-block">
+            <h5><a href="Recetas/pizza_fugazzeta.html">Pizza Fugazzeta</a></h5>
+            <p>Increible receta para hacer una pizza fugazzeta desde cero!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Imagenes/brownie-con-cacao.jpg" class="d-block w-100" alt="Brownie con cacao" width="400" height="300">
+          <div class="carousel-caption d-none d-md-block">
+            <h5><a href="Recetas/brownie.html">Brownie con cacao</a></h5>
+            <p>Brownie facil de hacer y espectacular para compartir...o disfrutar a solas!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Imagenes/galletas-celiacos.jpg" class="d-block w-100" alt="Galletas para celiacos" width="400" height="300">
+          <div class="carousel-caption d-none d-md-block">
+            <h5><a href="Recetas/galletas_celiacos.html">Galletas para celíacos (sin gluten)</a></h5>
+            <p>Galletas dulces sin gluten muy faciles de hacer. Para comer sin parar!</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Siguiente</span>
+      </a>
+    </div>
 
     <p>Estas buscando recetas aptas para <a href="celiacos.html">Celíacos</a> haz click en el nombre o en la barra de navegacion
     y conoce nuevas recetas!</p>
@@ -56,5 +94,8 @@
  <footer>
    <!--Ingrese su mail para recibir las ultimas novedades!-->
  </footer>
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>

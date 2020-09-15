@@ -23,12 +23,9 @@ nav a:hover::before {
   width: 100%;
 }
 
-article {
-  background-color: burlywood;
-}
-
 content{
   font-size: 17px;
+
 }
 content p a:link{
   text-decoration: none;
@@ -48,3 +45,11 @@ content ul li a:visited{
   color: rgba(3, 110, 231, 0.979)
 }
 
+#carouselExampleCaptions a:link{
+  text-decoration: none;
+  color: white;
+}
+#carouselExampleCaptions a:visited{
+  text-decoration: none;
+  color: white;
+}
