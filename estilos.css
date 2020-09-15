@@ -4,11 +4,6 @@ body {
   font-weight: 800;
 }
 
-.container {
-	width: 80%;
-	margin: 0 auto;
-}
-
 header {
   background: #4461e2;
 }
@@ -55,7 +50,7 @@ nav a:hover::before {
   width: 100%;
 }
 
-body {
+article {
   background-color: burlywood;
 }
 
