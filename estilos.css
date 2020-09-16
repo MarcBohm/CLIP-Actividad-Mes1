@@ -33,7 +33,7 @@ content p a:link{
 }
 
 content p a:visited{
-    color: rgba(3, 110, 231, 0.979)
+  color: rgba(3, 110, 231, 0.979)
 }
 
 content ul li a:link{
