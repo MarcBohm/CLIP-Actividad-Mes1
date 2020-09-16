@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans:400,600">
     <link rel="stylesheet" href="estilos.css">
-    <title>Recetas del mundo - Mi perfil</title>
+    <title>Recetas del mundo - Registro</title>
 </head>
 
 <body>
@@ -35,23 +35,40 @@
           </nav>
  </header>
  <form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Direccion de mail</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <small id="emailHelp" class="form-text text-muted">No tienes cuenta todavia. <a href="registro.html">Registrate ahora!</a></small>
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Contraseña</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
-  </div>
-  <div class="form-group form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Recordarme</label>
-  </div>
-  <button type="submit" class="btn btn-primary">Ingresar</button>
-</form>
-
- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputEmail4">Email</label>
+        <input type="email" class="form-control" id="inputEmail4">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="inputPassword6">Contraseña</label>
+        <input type="password" id="inputPassword6" class="form-control col-md-6" aria-describedby="passwordHelpInline">
+        <small id="passwordHelpInline" class="text-muted">
+          Debe ser de 8-15 caracteres de longitud.
+        </small>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputAddress">Nombre</label>
+      <input type="text" class="form-control col-md-6" id="inputAddress" placeholder="">
+    </div>
+    <div class="form-group">
+      <label for="inputAddress2">Apellido</label>
+      <input type="text" class="form-control col-md-6" id="inputAddress2" placeholder="">
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputCity">Pais</label>
+        <input type="text" class="form-control" id="inputCity">
+      </div>
+      <div class="form-group col-md-4">
+        <label for="inputState">Localidad</label>
+        <input type="text" class="form-control" id="inputState">
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Registrame</button>
+  </form>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
